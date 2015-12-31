@@ -1,12 +1,12 @@
 <?php
 
-class ProductBrandAdmin extends ModelAdmin{
-	
-	public static $managed_models = array(
-		'ProductBrand'
-	);
-	
-	static $url_segment = 'brands';
-	static $menu_title = 'Brands';
-	
+class ProductBrandAdmin extends ModelAdmin
+{
+    
+    public static $managed_models = array(
+        'ProductBrand'
+    );
+    
+    public static $url_segment = 'brands';
+    public static $menu_title = 'Brands';
 }
